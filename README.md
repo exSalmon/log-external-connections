@@ -1,7 +1,7 @@
 # log-external-connections
 A python program that logs external connections to a .txt file
 
-##Installation
+## Installation
 1. Install Python on your Windows 10 machine if you haven't already: https://www.python.org/downloads/windows/
 2. Install the psutil library using pip: pip install psutil
 3. Clone or download this repository to your local machine
@@ -9,7 +9,7 @@ A python program that logs external connections to a .txt file
 5. Run the program with the following command: python log_connections.py
 6. Verify that a file named external_connections.log has been created and contains log entries of external connections
 
-##Auto-start on Boot
+## Auto-start on Boot
 1. Create a batch file to run the program automatically on boot by following these steps:
     a. Open a text editor such as Notepad
     b. Type the following command in the editor: python <path_to_script>/log_connections.py
